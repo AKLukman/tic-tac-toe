@@ -91,11 +91,11 @@ const Game = () => {
       <div className="players">
         <div className={`player ${isXNext ? "active" : ""}`}>
           <img src={image1} alt="Player 1" className="player-image" />
-          <p className="name">Taylor</p>
+          <p className="name">Taylor(T)</p>
         </div>
         <div className={`player ${!isXNext ? "active" : ""}`}>
           <img src={image2} alt="Player 2" className="player-image" />
-          <p className="name1">Lukman</p>
+          <p className="name1">Lukman(L)</p>
         </div>
       </div>
 
